@@ -7,15 +7,12 @@
 
 body {
     font-size: 100%;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     background-color:#021429;
     color: #fff;
-    /* background-color: #0a192f; */
-    /* background-color: #171c28; */
-    /* font-family: monospace; */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.55;
     cursor: none;
+    width: 100%;
 }
 
 a {
@@ -315,9 +312,6 @@ nav ul li a {
     font-family: monospace;
 }
 
-
-
-
 /* contact */
 
 .contact {
@@ -349,7 +343,6 @@ nav ul li a {
     font-size: 4rem;
 }
 
-
 /* footer  */
 
 footer {
@@ -365,10 +358,7 @@ footer p {
     font-family: monospace;
 }
 
-
 @media  screen and (max-width: 768px) {
-
-    
 
     a {
         cursor: pointer;
@@ -474,12 +464,12 @@ footer p {
        transition: all 0.45s ease-in-out;
        z-index: -1;
        backdrop-filter: blur(5px);
+       -webkit-backdrop-filter: blur(5px);
    }
 
 
     aside ul li {
-        margin-bottom: 2rem;
-        
+        margin-bottom: 2rem;   
     }
 
     aside ul li a {
@@ -537,7 +527,6 @@ footer p {
     
     }
     
-
     .text {
         width: 90% !important;
     }
@@ -563,12 +552,10 @@ footer p {
         margin-left: 1.6rem;    
     }    
 
-
     /* projects */
     .project-flex {
         flex-direction: column;
     }
-
 
     .project-title {
         margin-bottom: 2rem;
