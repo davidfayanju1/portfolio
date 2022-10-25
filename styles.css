@@ -208,7 +208,6 @@ nav ul li a {
 
 
 /* projects  */
-
 .projects {
     min-width: 100%;
 }
@@ -252,14 +251,14 @@ nav ul li a {
 
 
 /* scroll animation */
-.section {
+/* .section {
     opacity: 0;
     transition: opacity 0.45s ease-in-out;
 }
 
 .section.appear{
     opacity: 1;
-}
+} */
 
 .project-header {
     margin-bottom: 2rem;
