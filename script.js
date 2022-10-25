@@ -89,9 +89,6 @@ navList.forEach((item) => {
 
 
 // scroll animation
-
-
-
 const faders = document.querySelectorAll('.section');
 
 const myOptions = {

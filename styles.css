@@ -25,7 +25,6 @@ p {
 }
 
 /* cursor */
-
 .cursor {
     background-color: white;
     border-radius: 100%;
@@ -102,6 +101,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
+
 /* navbar-brand */
 #myName a {
     text-decoration: none;
@@ -110,10 +110,6 @@ nav ul li a {
 .intro {
     width: 100% !important;
 }
-
-/* .showcase {
-    min-width: 25rem;
-} */
 
 .container {
     padding: 6rem 6rem;
@@ -140,7 +136,6 @@ nav ul li a {
 .showcase h1::after {
     content: '';
     height: 0.1rem;
-    /* width: 73%; */
     background-color: rgb(234, 234, 234);
     display: block;
     margin-bottom: 1rem;
@@ -173,7 +168,6 @@ nav ul li a {
 .text p {
     margin-bottom: 2rem;
 }
-
 
 /* skills */
 
@@ -256,14 +250,16 @@ nav ul li a {
     transition: all 0.45s ease-in-out;
 }
 
-/* .section {
+
+/* scroll animation */
+.section {
     opacity: 0;
     transition: opacity 0.45s ease-in-out;
 }
 
 .section.appear{
     opacity: 1;
-} */
+}
 
 .project-header {
     margin-bottom: 2rem;
@@ -298,7 +294,6 @@ nav ul li a {
 
 .contact {
     text-align: center;
-    /* min-width: 30rem; */
 }
 
 .contact h1 {
@@ -379,7 +374,6 @@ footer p {
         transform: translateY(-9px) rotate(-45deg);
     }
 
-    
     /* nav */
     .desktop-nav {
         display: none;
